@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+
 /**
  * Created by SungHere on 2017-04-17.
  */
@@ -22,5 +23,13 @@ public class ShopController {
         logger.info("Welcome HomeController write---------------------------------!");
         return "write.tiles";
     }
+    
+    @RequestMapping(value = "detail.do", method = RequestMethod.GET)
+    public String detail(Model model) throws Exception {
+
+        logger.info("Welcome ShopController detail---------------------------------!");
+        return "shopdetail.tiles";
+    }
 
 }
+
