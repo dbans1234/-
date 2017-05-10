@@ -12,7 +12,7 @@
 %>
 <html>
 <head>
-    <title>어서와</title>
+    <title>어서와dd</title>
 </head>
 <body>
 <%
